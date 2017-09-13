@@ -1,35 +1,19 @@
+> Fork 
+
+To solve a problem i faced when the md-cell was created by ng-repeat. The table used to be empty.
+
+
+
 > Live demo http://iamisti.github.io/mdDataTable/
 
 Angular material table. Complete implementation of google material design based on angular material components.
 This component is optimized for speed, and it's faster then other similar implementations, since it generates a native html table, and browsers are optimized for tables.
 
-
-> Angular2 and Angular2 Material version of this plugin is under development. 
-If you want to be notified for the first release, please star the project here: [`md-data-table2`](https://github.com/iamisti/mdDataTable2)
-
-## Usage statistics
-
-[![NPM](https://nodei.co/npm-dl/md-data-table.png?months=6&height=3)](https://nodei.co/npm/md-data-table/)
-[![NPM](https://nodei.co/npm/md-data-table.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/md-data-table/)
-
-[![Build Status](https://travis-ci.org/iamisti/mdDataTable.svg?branch=master)](https://travis-ci.org/iamisti/mdDataTable) 
-[![Code Climate](https://codeclimate.com/github/iamisti/mdDataTable/badges/gpa.svg)](https://codeclimate.com/github/iamisti/mdDataTable)
-[![Test Coverage](https://codeclimate.com/github/iamisti/mdDataTable/badges/coverage.svg?branch=master)](https://codeclimate.com/github/iamisti/mdDataTable/coverage) 
-[![Dependency Status](https://gemnasium.com/iamisti/mdDataTable.svg)](https://gemnasium.com/iamisti/mdDataTable)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/fdcfe195e886430aaefefa54c972d3f7)](https://www.codacy.com/app/programtervezo/mdDataTable)
-
 ## Install
 
-1. `bower install md-data-table` or `npm install md-data-table` or [download the source](https://github.com/iamisti/mdDataTable/archive/master.zip).
+1. `bower install md-data-table` or `npm install md-data-table` or [download the source](https://github.com/saajan/mdDataTable/archive/master.zip).
 2. Make sure the `mdDataTable` (notice the camelCase typing) lib is loaded. It's served in three different files: `md-data-table-style.css`, `md-data-table.js`, `md-data-table-templates.js`
 3. Add `mdDataTable` as a dependency of your app.
-
-## Load it from CDN (with example of version 1.8.0)
-https://cdnjs.cloudflare.com/ajax/libs/md-data-table/1.8.0/md-data-table-templates.min.js
-
-https://cdnjs.cloudflare.com/ajax/libs/md-data-table/1.8.0/md-data-table.min.js
-
-https://cdnjs.cloudflare.com/ajax/libs/md-data-table/1.8.0/md-data-table-style.css
 
 ## UI&UX driven by google data table
 http://www.google.com/design/spec/components/data-tables.html

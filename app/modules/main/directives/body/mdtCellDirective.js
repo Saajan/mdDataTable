@@ -62,8 +62,8 @@
                     if(attr.htmlContent){
                         mdtRowCtrl.addToRowDataStorage(clone, attributes);
                     }else{
-                        //TODO: better idea?
-                        var cellValue = $interpolate(clone.html())($scope.$parent);
+                        //Table data used to be empty for ng repeat . removed $parent from scope.
+                        var cellValue = $interpolate(clone.html())($scope);
 
                         mdtRowCtrl.addToRowDataStorage(cellValue, attributes);
                     }
